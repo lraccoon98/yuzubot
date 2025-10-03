@@ -1,5 +1,4 @@
-> [日本語版はこちら](#yuzuha---slack向け高度対話型aiボット) (Japanese version follows below)
-
+> [日本語版はこちら](#japanese-version) (Japanese version follows below)
 ---
 
 # Yuzuha - Advanced Conversational AI for Slack
@@ -42,6 +41,7 @@ This bot is deployed as a Google Apps Script web app, triggered by Slack Event A
 
 ---
 
+<a name="japanese-version"></a>
 # 柚葉 - Slack向け高度対話型AIボット
 
 ## 🌟 概要
