@@ -7,7 +7,6 @@
  * @returns {Object} The parsed response content from Gemini.
  */
 function callGeminiAPI(contents, systemInstruction, useTools = true, safetySettings = null) {
-  // *** CHANGE: The 'imageData' parameter and all the logic that used it has been removed. ***
   const ENDPOINT = `https://generativelanguage.googleapis.com/v1beta/models/${geminiModel}:generateContent?key=${GEMINI_API_KEY}`;
 
   const requestBody = {
