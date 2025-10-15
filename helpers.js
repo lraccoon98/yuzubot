@@ -10,7 +10,6 @@ const parseSlackMsgsToGeminiQueryMsgs = (slackMsgs, imageData = null) => {
     const role = msg.user == BOT_MEMBER_ID ? "model" : "user";
     let content = msg.text || "";
 
-    // *** CHANGE: This is the core logic update ***
     const parts = [];
 
     // If it's the last message from a user, and there's no text but there is a file,

@@ -5,7 +5,6 @@ const BOT_MEMBER_ID =
   PropertiesService.getScriptProperties().getProperty("BOT_MEMBER_ID");
 const BOT_AUTH_TOKEN =
   PropertiesService.getScriptProperties().getProperty("BOT_AUTH_TOKEN");
-// *** GEMINI CHANGE: Using the Gemini API key now ***
 const GEMINI_API_KEY =
   PropertiesService.getScriptProperties().getProperty("GEMINI_API_KEY");
 const BOT_B_MEMBER_ID =
